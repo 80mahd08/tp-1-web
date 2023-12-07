@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*header*/
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 75px;
+  padding: 20px;
+}
+header .container .logo{
+  min-width: 200px;
+}
+
+header .container div {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgb(15, 15, 15);
+}
+.container div span{
+  color: orange;
+}
+nav{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+header nav ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  height: fit-content;
+}
+header nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000033;
+}
+
+/*main*/
+
+section.main{
+  width: 100%;
+  height: calc(90dvh - 75px);
+  background-image: url("images/24.6 main.jpg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.main .center{
+  position: absolute;
+  left: 50%;
+  bottom: 40%;
+  transform: translate(-50% , 0%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 40%;
+  text-align: center;
+}
+section.main .center h1{
+  font-size: 50px;
+  font-weight: 500;
+}
+section.main .center h1 span{
+  font-weight: 800;
+}
+section.main .center button{
+  margin: 0 auto;
+  padding: 10px 30px;
+  background-color: orange;
+  border: 0;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 30px;
+}
+section.icons .flex-item{
+  text-align: center;
+}
+
+section.offre .part-right {
+  width: 50%;
+}
+section.offre .part-right.pre {
+  background-image: url(./images/24.4\ article-image-1.jpg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 420px;
+  border-radius: 0 20px 20px 0;
+  
+  
+}
+section.offre .part-right.de {
+  background-image: url(./images/24.5\ article-image-2.jpg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 420px;
+  border-radius: 0 20px 20px 0;
+}
+
+section.offre .part-left {
+  width: 50%;
+}
+
+.d{
+  height: fit-content;
+  background-color: rgb(202, 202, 202);
+}
+section.offre h3 {
+  border-bottom: 2px solid orange;
+  padding: 20px;
+  margin: 0 20px;
+  text-wrap: wrap;
+}
+
+section.offre .flex-item{
+  background-color: rgb(248, 234, 212) !important;
+  border-radius: 20px;
+  border-radius: 20px;
+}
+
+section.offre p {
+  padding: 0 10px;
+}
+
+section.contactez input{
+  border: 1px solid orange;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+section.contactez input::placeholder{
+  color: orange;
+  font-weight: 500;
+  font-size: medium;
+}
+
+section.contactez label{
+  font-weight: 500;
+  font-size: medium;
+  color: orange;
+}
+
+section.contactez button{
+  margin: 0 auto;
+  padding: 10px 30px;
+  background-color: orange;
+  border: 0;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 30px;
+  outline: 0;
+}
+
+footer{
+  background-color: rgb(202, 202, 202);
+  padding: 50px 0;
+}
+footer h1{
+  margin: 0;
+}
